@@ -12,7 +12,6 @@ class Cursos(admin.ModelAdmin):
 admin.site.register(Curso, Cursos)
 
 
-
 class Professores(admin.ModelAdmin):
     list_display = ('id', 'nome', 'email', 'ativo', 'dataNascimento')
     list_display_links = ('id', 'nome')
